@@ -8,22 +8,16 @@ public class Exercise22 {
 
     public static List<String> createArrayList() {
         List<String> lista = new ArrayList();
-        String coleccion[] = {
-                "GKFFD",
-                "TNANA",
-                "MPMSL",
-                "PSWME",
-                "LZMLF",
-                "JYEBV",
-                "YELNT",
-                "JSNKR",
-                "JFESF",
-                "TMJLL"
-        };
 
-        for (String elemento : coleccion) {
-            lista.add(elemento);
-        }
+                lista.add("GKFFD");
+                lista.add("TNANA");
+                lista.add("MPMSL");
+                lista.add("PSWME");
+                lista.add("LZMLF");
+                lista.add("JYEBV");
+                lista.add("YELNT");
+                lista.add("JSNKR");
+                lista.add("JFESF");
         return lista;
     }
 
